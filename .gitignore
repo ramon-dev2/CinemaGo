@@ -11,6 +11,7 @@
 
 # Rider / JetBrains
 .idea/
+.idea/.idea.CinemaGo/
 .idea/.idea.CinemaGo/.idea/
 *.sln.iml
 
