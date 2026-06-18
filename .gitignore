@@ -11,6 +11,7 @@
 
 # Rider / JetBrains
 .idea/
+.idea/.idea.CinemaGo/.idea/
 *.sln.iml
 
 # ReSharper / Rider caches
@@ -35,4 +36,3 @@ Icon?
 ._*
 .Spotlight-V100
 .Trashes
-
