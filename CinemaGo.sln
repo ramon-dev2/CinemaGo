@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaGo.Application", "CinemaGo.Application\CinemaGo.Application.csproj", "{04E4862C-F1CD-4760-A723-E16512CB4FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaGo.Domain", "CinemaGo.Domain\CinemaGo.Domain.csproj", "{39A25B58-C6BE-42D2-B53A-C781F0E421E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaGo.Infrastructure", "CinemaGo.Infrastructure\CinemaGo.Infrastructure.csproj", "{8D10E4FA-7288-451F-9C5C-569C37C99ED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E4862C-F1CD-4760-A723-E16512CB4FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E4862C-F1CD-4760-A723-E16512CB4FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E4862C-F1CD-4760-A723-E16512CB4FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E4862C-F1CD-4760-A723-E16512CB4FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A25B58-C6BE-42D2-B53A-C781F0E421E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A25B58-C6BE-42D2-B53A-C781F0E421E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A25B58-C6BE-42D2-B53A-C781F0E421E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A25B58-C6BE-42D2-B53A-C781F0E421E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D10E4FA-7288-451F-9C5C-569C37C99ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D10E4FA-7288-451F-9C5C-569C37C99ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D10E4FA-7288-451F-9C5C-569C37C99ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D10E4FA-7288-451F-9C5C-569C37C99ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
