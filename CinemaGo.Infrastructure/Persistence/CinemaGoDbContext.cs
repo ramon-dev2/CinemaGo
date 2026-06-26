@@ -14,6 +14,7 @@ public class CinemaGoDbContext(DbContextOptions<CinemaGoDbContext> options) : Db
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(CinemaGoDbContext).Assembly);
     }
 }
 
