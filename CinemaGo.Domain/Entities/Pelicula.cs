@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CinemaGo.Domain.Entities
+﻿namespace CinemaGo.Domain.Entities
 {
     public class Pelicula
     {
@@ -21,7 +17,7 @@ namespace CinemaGo.Domain.Entities
         public bool EstadoCartelera { get; set; } = true;
 
         // Relación con los géneros (Una película puede tener varios géneros)
-        public List<Genero> Generos { get; set; } = new List<Genero>();
+        public ICollection<Genero> Generos { get; set; } = new List<Genero>();
         public ICollection<Funcion> Funciones { get; set; } = new List<Funcion>();
     }
 }
