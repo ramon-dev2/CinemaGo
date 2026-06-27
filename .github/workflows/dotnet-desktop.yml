@@ -52,7 +52,7 @@ jobs:
 
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
-          cache: true
+          cache: false
 
       - name: Restore
 
