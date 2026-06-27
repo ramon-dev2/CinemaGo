@@ -1,39 +1,52 @@
-# Build outputs
-**/bin/
-**/obj/
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-# User-specific files
+# .NET
 *.user
-*.rsuser
-*.suo
 *.userosscache
 *.sln.docstates
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
 
-# Rider / JetBrains
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Visual Studio
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 .idea/
-.idea/.idea.CinemaGo/
-.idea/.idea.CinemaGo/.idea/
-*.sln.iml
 
-# ReSharper / Rider caches
-_ReSharper*/
-*.[Rr]e[Ss]harper
-*.DotSettings.user
+# Rider
+.idea/
 
-# Test / coverage artifacts
-TestResults/
-*.coverage
-*.coveragexml
+# VS Code
+.vscode/
 
-# Logs / temp files
-*.log
-*.tmp
-
-# macOS
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon?
-._*
-.Spotlight-V100
-.Trashes
+Thumbs.db
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# Publish
+wwwroot/
+publish/
+
+# Settings
+appsettings.local.json
+appsettings.*.local.json
